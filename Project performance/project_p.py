@@ -62,10 +62,6 @@ accuracy_train = accuracy_score(y_train, y_train_pred)
 print("Accuracy in validation data:", accuracy_val)
 print("Accuracy in training data:", accuracy_train)
 
-# Calculate the accuracy
-accuracy = accuracy_score(y_val, y_pred)
-print("\nAccuracy in validation data:", accuracy)
-
 # Print confusion matrix
 conf_matrix = confusion_matrix(y_val, y_pred)
 print("\nConfusion Matrix:")
